@@ -1,82 +1,90 @@
 # 🛒 Django E-commerce Project
 
-Welcome to a full-featured E-commerce web application built with **Django**. This platform supports customer shopping experience with product listings, a cart system, and a secure checkout workflow.
-
-![Banner](screenshots/banner.png)
+A powerful and user-friendly E-commerce web application built using Django. It features user registration, product management, shopping cart, order handling, and a full admin backend.
 
 ---
 
-## 🚀 Features
+## 🚀 Key Features
 
-- 🧑‍💻 User Registration & Login
-- 🛍️ Product Listing with Categories
-- 🛒 Shopping Cart System
-- 💳 Order Placement & Checkout
-- 📦 Admin Dashboard to Manage Products & Orders
-- 📱 Responsive UI Design
+✅ User Signup & Login  
+✅ Product Listings with Categories  
+✅ Product Details Page  
+✅ Cart Management  
+✅ Checkout & Order Placement  
+✅ Admin Dashboard for Product & Order Control  
+✅ Responsive Design for Mobile & Desktop
 
 ---
 
-## 🛠️ Built With
+## 🛠️ Tech Stack
 
-- **Backend:** Django, Python
-- **Frontend:** HTML, CSS, JavaScript
-- **Database:** SQLite (default), PostgreSQL (optional)
-- **Authentication:** Django built-in auth
-- **UI Framework:** Bootstrap / Tailwind CSS
+- **Backend:** Django (Python)
+- **Frontend:** HTML, CSS, Bootstrap
+- **Database:** SQLite / PostgreSQL
+- **Authentication:** Django's built-in user system
 
 ---
 
 ## 📸 Screenshots
 
-> 📁 Make sure to upload your screenshots to a folder called `/screenshots` in your repo.
+### 🏠 Homepage
 
-### 🔹 Homepage
-
-![Homepage](screenshots/homepage.png)
+![Homepage](https://github.com/swajan21/DJANGO-PROJECT-ECOMMERCE/raw/main/Django%20project/Screenshot/home.png)
 
 ---
 
-### 🔹 Product Listing
+### 🛍️ Product List
 
-![Products](screenshots/products.png)
-
----
-
-### 🔹 Cart Page
-
-![Cart](screenshots/cart.png)
+![Product List](https://github.com/swajan21/DJANGO-PROJECT-ECOMMERCE/raw/main/Django%20project/Screenshot/productlist.png)
 
 ---
 
-### 🔹 Checkout Page
+### 📦 Product View
 
-![Checkout](screenshots/checkout.png)
+![Product View](https://github.com/swajan21/DJANGO-PROJECT-ECOMMERCE/raw/main/Django%20project/Screenshot/productview.png)
 
 ---
 
-## 🧪 Setup Instructions
+### 🛒 Cart Page
 
-Follow these steps to run the project locally:
+![Cart Page](https://github.com/swajan21/DJANGO-PROJECT-ECOMMERCE/raw/main/Django%20project/Screenshot/cart.png)
+
+---
+
+### 💳 Checkout Page
+
+![Checkout Page](https://github.com/swajan21/DJANGO-PROJECT-ECOMMERCE/raw/main/Django%20project/Screenshot/checkout.png)
+
+---
+
+### 📜 My Orders Page
+
+![My Orders](https://github.com/swajan21/DJANGO-PROJECT-ECOMMERCE/raw/main/Django%20project/Screenshot/myorder.png)
+
+---
+
+### ⚙️ Admin Dashboard
+
+![Admin Dashboard](https://github.com/swajan21/DJANGO-PROJECT-ECOMMERCE/raw/main/Django%20project/Screenshot/admin.png)
+
+---
+
+## 💻 How to Run Locally
 
 ```bash
-# 1. Clone the repository
+# Step 1: Clone the repo
 git clone https://github.com/swajan21/DJANGO-PROJECT-ECOMMERCE.git
 cd DJANGO-PROJECT-ECOMMERCE
 
-# 2. Create a virtual environment
+# Step 2: Create virtual environment
 python -m venv venv
-# Activate the virtual environment
-# On Windows:
-venv\Scripts\activate
-# On Mac/Linux:
-source venv/bin/activate
+venv\Scripts\activate  # (Use source venv/bin/activate on Mac/Linux)
 
-# 3. Install the required packages
+# Step 3: Install dependencies
 pip install -r requirements.txt
 
-# 4. Apply migrations
+# Step 4: Run migrations
 python manage.py migrate
 
-# 5. Run the development server
+# Step 5: Start the server
 python manage.py runserver
