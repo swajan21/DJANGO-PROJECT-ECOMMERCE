@@ -29,7 +29,7 @@ A powerful and user-friendly E-commerce web application built using Django. It f
 
 ### 🏠 Homepage
 
-![Homepage](https://github.com/swajan21/DJANGO-PROJECT-ECOMMERCE/raw/main/Django%20project/Screenshot/home.png)
+![Homepage](https://github.com/swajan21/DJANGO-PROJECT-ECOMMERCE/blob/main/Django%20project/Screenshot/Home%20page.png)
 
 ---
 
