@@ -20,7 +20,7 @@ A powerful and user-friendly E-commerce web application built using Django. It f
 
 - **Backend:** Django (Python)
 - **Frontend:** HTML, CSS, Bootstrap
-- **Database:** SQLite / PostgreSQL
+- **Database:** SQLite3
 - **Authentication:** Django's built-in user system
 
 ---
@@ -33,39 +33,75 @@ A powerful and user-friendly E-commerce web application built using Django. It f
 
 ---
 
-### 🛍️ Address
+### 🛍 Product List
+![Soundbox](https://github.com/swajan21/DJANGO-PROJECT-ECOMMERCE/blob/main/Django%20project/Screenshot/Soundbox.png)
+![laptops](https://github.com/swajan21/DJANGO-PROJECT-ECOMMERCE/blob/main/Django%20project/Screenshot/all%20laptops.png)
+![SmartPhone](https://github.com/swajan21/DJANGO-PROJECT-ECOMMERCE/blob/main/Django%20project/Screenshot/all%20smart%20phone%20%26%20watch.png)
 
+---
+
+### 📦 Product Details
+![Product Details](https://github.com/swajan21/DJANGO-PROJECT-ECOMMERCE/blob/main/Django%20project/Screenshot/Product-details.png)
+
+---
+
+### 🛒 Shopping Cart
+![Shopping Cart](https://github.com/swajan21/DJANGO-PROJECT-ECOMMERCE/blob/main/Django%20project/Screenshot/shoping%20card.png)
+
+---
+
+### 💳 Checkout
+![Checkout](https://github.com/swajan21/DJANGO-PROJECT-ECOMMERCE/blob/main/Django%20project/Screenshot/Checkout.png)
+
+---
+
+### 🏡 Address
 ![Address](https://github.com/swajan21/DJANGO-PROJECT-ECOMMERCE/blob/main/Django%20project/Screenshot/Address.png)
 
 ---
 
-### 📦 Product View
-
-![Product View](https://github.com/swajan21/DJANGO-PROJECT-ECOMMERCE/raw/main/Django%20project/Screenshot/productview.png)
-
----
-
-### 🛒 Cart Page
-
-![Cart Page](https://github.com/swajan21/DJANGO-PROJECT-ECOMMERCE/raw/main/Django%20project/Screenshot/cart.png)
+### 📜 My Orders
+![My Orders](https://github.com/swajan21/DJANGO-PROJECT-ECOMMERCE/blob/main/Django%20project/Screenshot/Orders.png)
 
 ---
 
-### 💳 Checkout Page
-
-![Checkout Page](https://github.com/swajan21/DJANGO-PROJECT-ECOMMERCE/raw/main/Django%20project/Screenshot/checkout.png)
-
----
-
-### 📜 My Orders Page
-
-![My Orders](https://github.com/swajan21/DJANGO-PROJECT-ECOMMERCE/raw/main/Django%20project/Screenshot/myorder.png)
+### 📧 Contact Page
+![Contact](https://github.com/swajan21/DJANGO-PROJECT-ECOMMERCE/blob/main/Django%20project/Screenshot/Connect_us.png)
 
 ---
 
-### ⚙️ Admin Dashboard
+### 👤 Profile
+![Profile](https://github.com/swajan21/DJANGO-PROJECT-ECOMMERCE/blob/main/Django%20project/Screenshot/Profile.png)
 
-![Admin Dashboard](https://github.com/swajan21/DJANGO-PROJECT-ECOMMERCE/raw/main/Django%20project/Screenshot/admin.png)
+---
+
+### 📝 Registration
+![Registration](https://github.com/swajan21/DJANGO-PROJECT-ECOMMERCE/blob/main/Django%20project/Screenshot/Registration.png)
+
+---
+
+### 🔍 Search
+![Search](https://github.com/swajan21/DJANGO-PROJECT-ECOMMERCE/blob/main/Django%20project/Screenshot/Search.png)
+
+---
+
+### ℹ️ About
+![About](https://github.com/swajan21/DJANGO-PROJECT-ECOMMERCE/blob/main/Django%20project/Screenshot/about.png)
+
+---
+
+### 🔐 Change Password
+![Change Password](https://github.com/swajan21/DJANGO-PROJECT-ECOMMERCE/blob/main/Django%20project/Screenshot/change%20password.png)
+
+---
+
+### 🔐 Login
+![Login](https://github.com/swajan21/DJANGO-PROJECT-ECOMMERCE/blob/main/Django%20project/Screenshot/login.png)
+
+---
+
+### ❤️ Wishlist
+![Wishlist](https://github.com/swajan21/DJANGO-PROJECT-ECOMMERCE/blob/main/Django%20project/Screenshot/wishlist.png)
 
 ---
 
@@ -77,8 +113,8 @@ git clone https://github.com/swajan21/DJANGO-PROJECT-ECOMMERCE.git
 cd DJANGO-PROJECT-ECOMMERCE
 
 # Step 2: Create virtual environment
-python -m venv venv
-venv\Scripts\activate  # (Use source venv/bin/activate on Mac/Linux)
+python -m venv env
+env\Scripts\activate  # (Use source venv/bin/activate on Mac/Linux)
 
 # Step 3: Install dependencies
 pip install -r requirements.txt
