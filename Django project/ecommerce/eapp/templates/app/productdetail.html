@@ -29,7 +29,8 @@
                     {% endif %}
                  
 
-                {% else %} 
+                {% else %}    
+                        <h1 class="text-success"> In Stock : {{product.stock}} <br></h1> 
                 {% if item_already_in_cart %}
                  <a href="{% url 'showcart' %}" class="btn btn-warning shadow px-5 py-2 "> Go to cart <i class="fa-solid fa-cart-shopping" ></i> </a>
 
@@ -59,9 +60,10 @@
                     <a href="{% url 'show-wishlist' %}" class="btn btn-warning shadow px-5 py-2 "> Go To Wishlist <i class="fa-solid fa-heart"></i> </a>
                     {% endif %}
 
-                  
+                   
                 {% endif %}
-                {% endif %}  
+                {% endif %} 
+                
           </div>
       </div>
       <br><br>

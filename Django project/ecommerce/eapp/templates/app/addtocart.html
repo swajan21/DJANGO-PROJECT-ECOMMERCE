@@ -18,12 +18,23 @@
                     <div class="col-sm-9">
                         <div>
                             <h5>{{cart.product.title}}</h5>
+                            <h6><span class="badge bg-primary">In-Stock : {{cart.product.stock}}</span></h6>
                             <p class="mb-2 text-muted small">{{cart.product.description}}</p>
                             <div class="my-3">
                                 <label for="quantity">Quantity:</label>
                                 <a class="minus-cart btn" pid={{cart.product.id}}><i class="fas fa-minus-square fa-lg"></i></a>
                                 <span id="quantity">{{cart.quantity}}</span>
+
+                              {% if cart.quantity <= cart.product.stock %}
+
                                 <a class="plus-cart btn" pid={{cart.product.id}}><i class="fas fa-plus-square fa-lg"></i></a>
+
+                              {% else %}  
+                                 
+                                <span><h6> out of stock </h6></span>
+                              {% endif %}   
+
+
                                 <p class="mb-0"><span><strong>$ {{cart.product.discounted_price}}</strong></span></p>
                             </div>
                             <div class="">

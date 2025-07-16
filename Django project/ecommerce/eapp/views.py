@@ -2,6 +2,7 @@ from django.shortcuts import render,redirect
 from django.views import View
 from .forms import CustomerRegistration,CustomerProfileForm
 from django.contrib import messages
+from django.shortcuts import render, get_object_or_404
 from django.db.models import Q
 from django.http import JsonResponse
 from django.contrib.auth.decorators import login_required
@@ -72,7 +73,7 @@ class ProductDetail(View):
          wishitem = len(Wishlist.objects.filter(user=request.user))
          item_already_in_cart = Cart.objects.filter(Q(product=product.id) & Q(user=request.user)).exists()
          item_already_in_wishlist = Wishlist.objects.filter(Q(product=product.id) & Q(user=request.user)).exists()
-        return render(request, "app/productdetail.html",{'product':product,'item_already_in_cart':item_already_in_cart,'totalitem':totalitem,'wishitem':wishitem,'item_already_in_wishlist':item_already_in_wishlist})
+        return render(request, "app/productdetail.html",{'product':product,'item_already_in_cart':item_already_in_cart,'totalitem':totalitem,'wishitem':wishitem,'item_already_in_wishlist':item_already_in_wishlist,  })
     
 
 def mobile(request, data=None):
