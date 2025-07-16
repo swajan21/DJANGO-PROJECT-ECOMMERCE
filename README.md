@@ -116,11 +116,5 @@ cd DJANGO-PROJECT-ECOMMERCE
 python -m venv env
 env\Scripts\activate  # (Use source venv/bin/activate on Mac/Linux)
 
-# Step 3: Install dependencies
-pip install -r requirements.txt
-
-# Step 4: Run migrations
-python manage.py migrate
-
-# Step 5: Start the server
+# Step 3: Start the server
 python manage.py runserver
